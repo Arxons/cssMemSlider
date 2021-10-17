@@ -12,21 +12,49 @@
 
 <body>
     <main>
-        <div class="container">
-            <div class="slider">
-            </div>
-            <div class="controll">
-                <input id="first-inp" type="radio" checked name="controll-btn" class="controll-inp">
-                <label for="first-inp" class="controll-label"></label>
-                <input id="second-inp" type="radio" name="controll-btn" class="controll-inp">
-                <label for="second-inp" class="controll-label"></label>
-                <input id="third-inp" type="radio" name="controll-btn" class="controll-inp">
-                <label for="third-inp" class="controll-label"></label>
-                <input id="forth-inp" type="radio" name="controll-btn" class="controll-inp">
-                <label for="forth-inp" class="controll-label"></label>
+        <div class="title">
+            <h1>Какой ты сегодня?</h1>
+        </div>
+        <div class="slider">
+
+            <div class="pics">
+                <input type="radio" checked name="inp" id="inp1" class="inp">
+                <input type="radio" name="inp" id="inp2" class="inp">
+                <input type="radio" name="inp" id="inp3" class="inp">
+                <input type="radio" name="inp" id="inp4" class="inp">
+
+                <div class="pic inp1">
+                    <img src="./img/11.jpg" alt="">
+                    <div class="descr">
+                        <p>На чиле</p>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="./img/12.jpg" alt="">
+                    <div class="descr">
+                        <p>На расслабоне</p>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="./img/13.jpg" alt="">
+                    <div class="descr">
+                        <p>Идешь на стрелку</p>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="./img/14.jpg" alt="">
+                    <div class="descr">
+                        <p>Побили на стрелке</p>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <label for="inp1" class="btns inp1"></label>
+                    <label for="inp2" class="btns inp2"></label>
+                    <label for="inp3" class="btns inp3"></label>
+                    <label for="inp4" class="btns inp4"></label>
+                </nav>
             </div>
         </div>
-
     </main>
 </body>
 
