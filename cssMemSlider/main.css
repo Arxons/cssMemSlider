@@ -128,3 +128,40 @@ body {
 #inp4:checked ~ nav > .btns.inp4::after {    
     transform: scale(1)
 }
+
+@media (max-width: 600px) {
+    .nav {
+        right: 30%;
+        bottom: 3%
+    }
+
+    .descr p {
+        margin-left: 33%;
+        margin-top: 5%;
+        font-size: 32px;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .pics {
+        height: 60%;
+    }    
+}
+
+@media (max-width: 400px) {
+    .btns::before {
+        width: 24px;
+        height: 24px;
+    }
+
+    .btns::after {
+        width: 18px;
+        height: 18px;
+    }
+
+    .nav {
+        right: 23%;
+    }
+}
